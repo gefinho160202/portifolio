@@ -1,181 +1,201 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
 
     <title>Portifólio GCC</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="interface">
-            <div class="logo">
-                <a href="#">
-                    <h1>Portifólio</h1>
-                </a>
-            </div>
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-
-                </ul>
-
-            </nav>
-            <div class="btn-contato">
-                <a href="https://wa.me/5547988296336" target="_blank"></a>
-                <button>Contato</button>
-
-            </div>
-
-            <div class="btn-abrir-menu" id="btn-menu">
-                <i class="bi bi-list"></i>
-            </div>
-
-            <div class="menu-mobile" id="menu-mobile">
-                <div class="btn-fechar">
-                    <i class="bi bi-x-lg"></i>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Contatos</a></li>
-
-
-                    </ul>
-
-                </nav>
-
-            </div>
-            <div class="overlay-menu" id="overlay-menu"></div>
-
+      <div class="interface">
+        <div class="logo">
+          <a href="#">
+            <h1>Portifólio</h1>
+          </a>
         </div>
+        <nav class="menu-desktop">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+          </ul>
+        </nav>
+        <div class="btn-contato">
+          <a href="https://wa.me/5547988296336" target="_blank"></a>
+          <button>Contato</button>
+        </div>
+
+        <div class="btn-abrir-menu" id="btn-menu">
+          <i class="bi bi-list"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+            <i class="bi bi-x-lg"></i>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Projetos</a></li>
+              <li><a href="#">Contatos</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="overlay-menu" id="overlay-menu"></div>
+      </div>
     </header>
 
     <main>
-        <section id="inicio" class="topo-do-site">
-            <div class="interface">
-                <div class="flex">
+      <section id="inicio" class="topo-do-site">
+        <div class="interface">
+          <div class="flex">
+            <div class="txt-topo-site">
+              <h1>Sejam bem vindos</h1>
+              <p><span>Sou Desenvolvedor Front End</span></p>
 
-                    <div class="txt-topo-site">
-                        <h1>Sejam bem vindos</h1>
-                        <p><span>Sou Desenvolvedor Front End</span></p>
-
-                        <div class="btn-contato">
-                            <a href="https://wa.me/5547988296336" target="_blank">
-                                <button>Entre em contato</button></a>
-                            <a><button onclick="window.open('./assets/Gerfesson Cardoso Correia.pdf')">
-                                Download CV
-                            </button></a>
-                        </div>
-                    </div>
-
-                    <div class="img-topo-site">
-                        <img src="./img/gerfesson.jpg" alt="" width="300" height="300">
-                    </div>
-
-                </div>
-
+              <div class="btn-contato">
+                <a href="https://wa.me/5547988296336" target="_blank">
+                  <button>Entre em contato</button></a
+                >
+                <a
+                  ><button
+                    onclick="window.open('./assets/Gerfesson Cardoso Correia.pdf')"
+                  >
+                    Download CV
+                  </button></a
+                >
+              </div>
             </div>
 
-        </section>
-        <section id="sobre" class="sobre">
-            <div class="interface">
-                <div class="flex">
-                    <div class="img-sobre">
-                        <img src="./img/gerfesson.jpg" alt="" width="300" height="300">
-                    </div>
-                    <div class="txt-sobre">
-                        <h2>Muito Prazer, <span>Sou Gerfesson Cardoso Correia.</span> </h2>
-                        <p>Programador Fron End , desenvolvendo desde sites , programas e muitos mais para você aumentar
-                            em vendas e
-                            produtividade no seu negócio com rapidez e segurança, Entre em contato e descubra como posso
-                            ajudá-lo.</p>
-                        <div class="btn-social">
-                            <a href="https://www.linkedin.com/in/gerfesson-cardoso-correia/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
-                            <a href="https://github.com/gefinho160202" target="_blank"><button><i class="bi bi-github"></i></button></a>
-                            <a href="mailto:gefinho160202@hotmail.com" target="_blank"><button><i
-                                        class="bi bi-envelope"></i></button></a>
-
-                        </div>
-
-                    </div>
-                </div>
+            <div class="img-topo-site">
+              <img src="./img/gerfesson.jpg" alt="" width="300" height="300" />
             </div>
-
-
-        </section>
-        <section id="projetos" class="projetos">
-            <div class="interface">
-                <div>
-                    <h2>Principais Projetos</h2>
-
-                    <div class="card-projetos">
-
-
-                        <div class="card">
-                            <img src="./img/moedas.jpg">
-                            <h5>APP Converte moedas</h5>
-                            <p>Conversor de moedas em tempo real , pois foi utilizado uma API que mostra os valores das moedas do dia em tempo real.
-                                tecnologias utilizadas: HTML, CSS, JAVASCRIPT. </p>
-                            <a href="https://gefinho160202.github.io/conversor-de-moedas/" target="_blank">Ver
-                                Projeto</a>
-
-                        </div>
-
-                        <div class="card">
-                            <img src="./img/clima.jpg">
-                            <h5>App Clima</h5>
-                            <p>App Clima é usado uma API de tempo real para previsão 
-                                do tempo no mundo todo, nesse projeto foi usado as 
-                                tecnologias : HTML,CSS E JAVASCRIPT. </p>
-                            <a href="https://aplicativo-tempo.netlify.app" target="_blank">Ver Projeto</a>
-
-                        </div>
-
-                        <div class="card">
-                            <img src="./img/image-password.jpg">
-                            <h5>Gerador de Senhas</h5>
-                            <p>Projeto feito para ajudar usuários a criarem senhas mais seguras e 
-                                difíceis de serem roubadas. tecnologias usadas: React vite, 
-                                usando hooks como useState , javascript, css .</p>
-                            <a href="https://gerando-senhas-aleatorias.netlify.app/" target="_blank">Ver Projeto</a>
-
-                        </div>
-                    </div>
-                </div>
-
+          </div>
+        </div>
+      </section>
+      <section id="sobre" class="sobre">
+        <div class="interface">
+          <div class="flex">
+            <div class="img-sobre">
+              <img src="./img/gerfesson.jpg" alt="" width="300" height="300" />
             </div>
-        </section>
+            <div class="txt-sobre">
+              <h2>Muito Prazer, <span>Sou Gerfesson Cardoso Correia.</span></h2>
+              <p>
+                Programador Fron End , desenvolvendo desde sites , programas e
+                muitos mais para você aumentar em vendas e produtividade no seu
+                negócio com rapidez e segurança, Entre em contato e descubra
+                como posso ajudá-lo.
+              </p>
+              <div class="btn-social">
+                <a
+                  href="https://www.linkedin.com/in/gerfesson-cardoso-correia/"
+                  target="_blank"
+                  ><button><i class="bi bi-linkedin"></i></button
+                ></a>
+                <a href="https://github.com/gefinho160202" target="_blank"
+                  ><button><i class="bi bi-github"></i></button
+                ></a>
+                <a href="mailto:gefinho160202@hotmail.com" target="_blank"
+                  ><button><i class="bi bi-envelope"></i></button
+                ></a>
+                <a href="https://wa.me/5547988296336" target="_blank"
+                  ><button><i class="bi bi-whatsapp"></i></button
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projetos" class="projetos">
+        <div class="interface">
+          <div>
+            <h2>Principais Projetos</h2>
 
+            <div class="card-projetos">
+              <div class="card">
+                <img src="./img/moedas.jpg" />
+                <h5>APP Converte moedas</h5>
+                <p>
+                  Conversor de moedas em tempo real , pois foi utilizado uma API
+                  que mostra os valores das moedas do dia em tempo real.
+                  tecnologias utilizadas: HTML, CSS, JAVASCRIPT.
+                </p>
+                <a
+                  href="https://gefinho160202.github.io/conversor-de-moedas/"
+                  target="_blank"
+                  >Ver Projeto</a
+                >
+              </div>
 
+              <div class="card">
+                <img src="./img/clima.jpg" />
+                <h5>App Clima</h5>
+                <p>
+                  App Clima é usado uma API de tempo real para previsão do tempo
+                  no mundo todo, nesse projeto foi usado as tecnologias :
+                  HTML,CSS E JAVASCRIPT.
+                </p>
+                <a href="https://aplicativo-tempo.netlify.app" target="_blank"
+                  >Ver Projeto</a
+                >
+              </div>
+
+              <div class="card">
+                <img src="./img/image-password.jpg" />
+                <h5>Gerador de Senhas</h5>
+                <p>
+                  Projeto feito para ajudar usuários a criarem senhas mais
+                  seguras e difíceis de serem roubadas. tecnologias usadas:
+                  React vite, usando hooks como useState , javascript, css .
+                </p>
+                <a
+                  href="https://gerando-senhas-aleatorias.netlify.app/"
+                  target="_blank"
+                  >Ver Projeto</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <a id="link-topo" href="#"><i class="bi bi-arrow-up-circle"></i></a>
-        <h5>Gerfesson Cardoso Correia</h5>
-        <p>Para mais informações</p>
+      <a id="link-topo" href="#"><i class="bi bi-arrow-up-circle"></i></a>
+      <h5>Gerfesson Cardoso Correia</h5>
+      <p>Para mais informações</p>
 
-        <div class="btn-social">
-            <a href="https://www.linkedin.com/in/gerfesson-cardoso-correia/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
-            <a href="https://github.com/gefinho160202" target="_blank"><button><i class="bi bi-github"></i></button></a>
-            <a href="mailto:gefinho160202@hotmail.com" target="_blank"><button><i
-                        class="bi bi-envelope"></i></button></a>
-
-        </div>
+      <div class="btn-social">
+        <a
+          href="https://www.linkedin.com/in/gerfesson-cardoso-correia/"
+          target="_blank"
+          ><button><i class="bi bi-linkedin"></i></button
+        ></a>
+        <a href="https://github.com/gefinho160202" target="_blank"
+          ><button><i class="bi bi-github"></i></button
+        ></a>
+        <a href="mailto:gefinho160202@hotmail.com" target="_blank"
+          ><button><i class="bi bi-envelope"></i></button
+        ></a>
+        <a href="https://wa.me/5547988296336" target="_blank"
+          ><button><i class="bi bi-whatsapp"></i></button
+        ></a>
+      </div>
     </footer>
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>
